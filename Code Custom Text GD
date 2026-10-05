@@ -1,0 +1,37 @@
+{
+	"geode": "4.0.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "yourname.custom-end-texts",
+	"name": "Custom End Texts",
+	"version": "v1.0.0",
+	"developer": "yourname",
+	"description": "Tùy chỉnh chữ Level Complete, New Best và lời khen khi xong level.",
+	"settings": {
+		"level-complete-text": {
+			"type": "string",
+			"name": "Chữ Level Complete",
+			"default": "Level Complete!"
+		},
+		"practice-complete-text": {
+			"type": "string",
+			"name": "Chữ Practice Complete",
+			"default": "Practice Complete!"
+		},
+		"new-best-text": {
+			"type": "string",
+			"name": "Chữ New Best",
+			"default": "New Best!"
+		},
+		"end-messages": {
+			"type": "string",
+			"name": "Lời khen khi xong level (ngăn cách bằng |)",
+			"description": "Mỗi lần xong level sẽ chọn ngẫu nhiên 1 câu.",
+			"default": "Good!|GG bro!|Give up!"
+		}
+	}
+}
